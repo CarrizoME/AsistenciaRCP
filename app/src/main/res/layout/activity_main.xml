@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/smallheart"
+
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:isScrollContainer="true"
+    android:keepScreenOn="false"
+    android:measureWithLargestChild="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="diec.applications.asistenciarcp.MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/forma_boton3"
+        android:onClick="EsUnaEmergencia"
+        android:text="@string/FrentEmergenciaBOTON"
+        android:textColor="@drawable/text_boton2"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/Mapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/forma_boton"
+        android:filterTouchesWhenObscured="false"
+        android:onClick="BotonTest"
+        android:text="@string/MapaBOTON"
+        android:textColor="@color/Negro"/>
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/forma_boton"
+        android:filterTouchesWhenObscured="false"
+
+        android:onClick="RecordarProcedimiento"
+        android:text="@string/RecordatorioRCpBOTON"
+        android:textColor="@color/Negro"
+
+         />
+
+
+    <Button
+        android:id="@+id/Configuracion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/forma_boton"
+        android:filterTouchesWhenObscured="false"
+        android:onClick="BotonConfig"
+        android:text="@string/Configuracion"
+        android:textColor="@color/Negro" />
+
+
+</LinearLayout>

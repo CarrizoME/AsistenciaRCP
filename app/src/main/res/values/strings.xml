@@ -1,0 +1,54 @@
+<resources>
+
+
+    <string name="app_name">AsistenciaRCP</string>
+    <string name="RecordatorioRCpBOTON">Recordar el procedimiento RCP</string>
+    <string name="FrentEmergenciaBOTON">Estoy frente a una emergencia</string>
+    <string name="MapaBOTON">Localización de desfibriladores y emergencias</string>
+    <string name="Configuracion">Configuración</string>
+
+    <string name="PreguntaInconcientTEXTO">¿SE ENCUENTRA FRENTE A UNA PERSONA INCONSCIENTE Y QUE NO RESPIRA*?</string>
+    <string name="AclaracionRespiracion">Para chequear la respiración tomese unos segundos y vea si el torso sube y baja, si esto no ocurre la persona no esta respirando.
+    Si no se encuentra seguro de la respiración, asuma que no respira.</string>
+    <string name="InconscienteBOTON">SI</string>
+    <string name="ConcienteBOTON">NO</string>
+
+    <string name="PreguntaRespiraTEXTO">¿LA PERSONA NO ESTA RESPIRANDO O RESPIRA CON DIFICULTAD(JADEOS)?</string>
+    <string name="RespiraNormalBOTON">RESPIRA con NORMALIDAD</string>
+    <string name="NoRespiraBOTON">NO RESPIRA/ RESPIRA con DIFICULTAD</string>
+
+    <string name="EstaSoloPreguntaTEXTO">¿SE ENCUENTRA SOLO O HAY ALGUIEN QUE PUEDA LLAMAR A EMERGENCIAS?</string>
+    <string name="EstaSOLOBOTON">Me encuentro SOLO</string>
+    <string name="EstaAcompañadoBOTON">Me encuentro ACOMPAÑADO,alguien mas puede llamar a emergencias</string>
+
+    <string name="LugarEmergenciaTEXTO">¿A QUE NUMERO DESEA LLAMAR?</string>
+    <string name="InUNsBOTON">NUMERO DE EMERGENCIAS LOCAL</string>
+    <string name="outUNsBOTON">NUMERO DE EMERGENCIAS ALTERNATIVO</string>
+
+    <string name="GuiaRCPtEXTO">COLOQUE LAS MANOS EN EL CENTRO DEL PECHO Y COMPRIMA(5cm) AL RITMO DEL SONIDO,CADA 30 COMP. 2 VENTILACIONES.</string>
+
+    <string name="AclaracionNumLocal">Puede cambiar su número de emergencias local.
+        Por defecto se inicia con el 107 número de emergencias médicas en Argentina.</string>
+    <string name="AclaracionNumAlternativo">Aqui puede agregar un numero de emergencias alternativo.
+        Esto puede ser útil si usted se mueve en un entorno que tenga contratado un servicio de emergencias privado.
+        Por defecto tambien se inicia con 107. </string>
+
+    <string name="msg_token_fmt">Este es el TOKEN</string>
+    <string name="msg_subscribed">Se suscribio</string>
+    <string name="msg_subscribe_failed">No se pudo suscribir</string>
+    <string name="TopicoTema">EMERGENCIA</string>
+
+    <!--  Nombre del canal para notificaciones-->
+
+    <string name="channel_name">Canal1</string>
+    <string name="channel_description">Canal para emergencias</string>
+
+
+    <!--- Las siguienes son las distancias  -->
+    <dimen name="margenIZQ">10dp</dimen>
+    <dimen name="SeparacionBOTONES">100dp</dimen>
+    <dimen name="DistaanciaBOTONup">200dp</dimen>
+    <dimen name="DistanciaTEXTOup">10dp</dimen>
+    <dimen name="TextoAncho">300dp</dimen>
+    <dimen name="TextoAlto">120dp</dimen>
+</resources>

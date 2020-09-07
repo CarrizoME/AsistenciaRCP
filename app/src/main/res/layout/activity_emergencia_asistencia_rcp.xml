@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/smallheart"
+    android:padding="16dp"
+    tools:context="diec.applications.asistenciarcp.EmergenciaASISTENCIaRCP">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margenIZQ"
+        android:layout_marginLeft="@dimen/margenIZQ"
+        android:layout_marginTop="@dimen/DistanciaTEXTOup"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        android:text="@string/GuiaRCPtEXTO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="250dp"
+
+        android:src="@drawable/ventilacion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/push"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/botonPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/forma_boton"
+        android:onClick="ReproducirSonido"
+        android:text="  Reproducir sonido  "
+        android:textColor="@drawable/text_button1"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/buttonVibr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="170dp"
+
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/forma_boton"
+        android:onClick="ComenzarVibraciones"
+        android:text=" Comenzar vibraciones "
+        android:textColor="@drawable/text_button1" />
+
+    <TextView
+        android:id="@+id/VentiOpcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginEnd="5dp"
+        android:text="Si no se anima a hacer las ventilaciones, solo realice las compresiones"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

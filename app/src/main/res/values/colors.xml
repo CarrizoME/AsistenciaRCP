@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F12626</color>
+    <color name="colorPrimaryDark">#002CCD</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="Rojoooo">#FF1111</color>
+    <color name="Verdeeee">#5AEE1F</color>
+    <color name="Negro">#000000</color>
+    <drawable name="smallheart"></drawable>
+</resources>
